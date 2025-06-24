@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
+/* eslint-disable react/prop-types */
+
 
 const springValues = {
   damping: 30,
